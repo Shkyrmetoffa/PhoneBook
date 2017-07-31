@@ -1,4 +1,30 @@
-.ibox {
-    width: 40%;
-    margin: 40px auto 40px;
-}
+    .ibox {
+        width: 40%;
+        margin: 40px auto 40px;
+    }
+    
+    .container {
+        width: 350px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .m-b {
+        margin: 20px auto;
+        padding: 15px;
+    }
+    
+    .form-control {
+        padding: 20px 12px;
+        margin: 30px auto;
+        font-size: 24px;
+    }
+    
+    .center {
+        margin: 0 auto;
+    }
+    
+    .btn-white {
+        font-size: 18px;
+        margin: 10px 16px;
+    }
