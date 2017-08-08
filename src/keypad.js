@@ -8,30 +8,29 @@ class Keypad {
                     <input type="text" class="form-control" placeholder="Enter number" required="">
                 </div> 
                 <div class="container">
-							<button class="btn btn-primary  dim btn-large-dim" type="button">1</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">2</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">3</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">4</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">5</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">6</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">7</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">8</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">9</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">*</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">0</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">#</button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button"><</button>
-							<button class="btn btn-warning  dim btn-large-dim" type="button"><i class="fa fa-phone"></i></button>
-							<button class="btn btn-primary  dim btn-large-dim" type="button">X</button>
-                            </div>
-                               <footer>
-                                 <a class="btn btn-sm btn-white" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Contacts</a>
-                                 <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-th" aria-hidden="true"></span>Keypad</a>
-                                 <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add contact</a>
-                               </footer>
-							</div>
-                           
-							</div>`;
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">1</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">2</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">3</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">4</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">5</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">6</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">7</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">8</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">9</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">*</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">0</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">#</button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button"><</button>
+					 <button class="btn btn-warning  dim btn-large-dim" type="button"><i class="fa fa-phone"></i></button>
+					 <button class="btn btn-primary  dim btn-large-dim" type="button">X</button>
+                 </div>
+                   <footer>
+                      <a class="btn btn-sm btn-white" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Contacts</a>
+                      <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-th" aria-hidden="true"></span>Keypad</a>
+                      <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add contact</a>
+                   </footer>
+				 </div>
+			</div>`;
     }
 
     // click() {
@@ -41,6 +40,7 @@ class Keypad {
     //         var button = buttons[i];
     //         button.addEventListener('click', (e) => {
     //             input.innerHTML += e.target.textContent;
+
     //         });
     //     }
     // }
