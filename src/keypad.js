@@ -55,9 +55,7 @@ class Keypad {
         let main = document.getElementsByClassName('main')[0];
         let container = document.querySelector('.container');
         main.innerHTML = this.createKeypad();
-        let input = document.querySelector('input');
-        console.log(input);
-        // this.click();
+
     }
 }
 let keypad = new Keypad();
