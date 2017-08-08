@@ -1,7 +1,5 @@
 class AddUser {
-    constructor() {
-
-    }
+    constructor() {}
     createUserProfile() {
         return `<div class="ibox">
                         <div class="ibox-content">
@@ -24,15 +22,13 @@ class AddUser {
                     </div>
                 </div>
             </div>
-            <div class="row">
-            <div class="col-md-6">
-                Copyright Example Company
-            </div>
-            <div class="col-md-6 text-right">
-               <small>© 2017-2018</small>
-            </div>
+             <footer>
+                    <a class="btn btn-sm btn-white" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Contacts</a>
+                    <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-th" aria-hidden="true"></span>Keypad</a>
+                    <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add contact</a>
+              </footer> 
         </div>
-        </div>
+        
    </div>
    </div>
    </div>
@@ -41,7 +37,6 @@ class AddUser {
 
     render() {
         let body = document.querySelector('body');
-
         body.innerHTML = this.createUserProfile();
     }
 }

@@ -1,7 +1,5 @@
 class Keypad {
-    constructor() {
-
-    }
+    constructor() {}
     createKeypad() {
         return `<div class="ibox">
                         <div class="ibox-content">
@@ -26,9 +24,11 @@ class Keypad {
 							<button class="btn btn-warning  dim btn-large-dim" type="button"><i class="fa fa-phone"></i></button>
 							<button class="btn btn-primary  dim btn-large-dim" type="button">X</button>
                             </div>
-                                <a class="btn btn-sm btn-white" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Contacts</a>
-                                <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-th" aria-hidden="true"></span>Keypad</a>
-                                <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add contact</a>
+                               <footer>
+                                 <a class="btn btn-sm btn-white" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Contacts</a>
+                                 <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-th" aria-hidden="true"></span>Keypad</a>
+                                 <a class="btn btn-sm btn-white" href="mail_compose.html"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add contact</a>
+                               </footer>
 							</div>
                            
 							</div>`;
@@ -50,7 +50,7 @@ class Keypad {
         } else {
             console.log('You should type number only');
         }
-    };
+    }
     render() {
         let main = document.getElementsByClassName('main')[0];
         let container = document.querySelector('.container');
