@@ -1,7 +1,5 @@
 class UserProfile {
-    constructor() {
-
-    }
+    constructor() {}
     createHeader() {
         return `<header class="header">
 		<div class="container top-radius">
@@ -48,7 +46,6 @@ class UserProfile {
 			</div>
 		</div>
 	</main>`;
-
     }
     createFooter() {
         return `<footer class="footer">
