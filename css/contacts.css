@@ -26,7 +26,21 @@
     
     .btn-white {
         font-size: 18px;
-        margin: 10px 16px;
+        margin: 10px 15px;
+    }
+    
+    .fa {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    
+    .data-wrap {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .m-t-md {
+        margin: 50px 0 40px;
     }
     
     footer {
